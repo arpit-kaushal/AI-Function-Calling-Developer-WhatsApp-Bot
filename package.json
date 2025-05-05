@@ -1,0 +1,31 @@
+{
+  "name": "my-new-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "genai": "^0.0.18",
+    "puppeteer": "^24.8.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.27.0",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/node": "^22.15.3",
+    "@types/node-fetch": "^2.6.12",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3"
+  }
+}
