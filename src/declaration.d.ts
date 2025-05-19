@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyATsTQFDTVrWddXFnOLVWIQic_-jrxLdz4";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "YOUR API KEY HERE";
 
 genai.configure({ api_key: GEMINI_API_KEY });
 
